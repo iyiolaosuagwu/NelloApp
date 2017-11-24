@@ -706,6 +706,9 @@ border-color: white;
   left: 30px;
   top: 10px;
   }
+  .review-right-section{
+  margin-top: 10px;
+  }
 }
   @media screen and (max-width: 1000px){
   .review-user-image {
@@ -778,6 +781,9 @@ border-color: white;
   }
   .review-middle-section{
     margin-top: 5px;
+  }
+  .review-right-section{
+  margin-top: 10px;
   }
   }
   
@@ -1112,13 +1118,15 @@ border-color: white;
 }
 
 
-@media (min-width: 768px) and (max-width: 1024px) { 
+/*@media (min-width: 768px) and (max-width: 1024px) { 
   .c100.big {
   font-size: 180px;
   text-align: center;
 }
 
- }
+ }*/
+
+
   /* ###### */
 
 
@@ -1201,8 +1209,8 @@ border-color: white;
 /* Register */
 @media screen and (max-width: 500px){
 .register-left-section{
-  text-align: center;
-  height: 50vh;
+   text-align: center;
+  height: 40vh;
   background-position: 0px 0px;
    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url(../img/login_skype.jpg);
    background-size: cover;
@@ -1216,7 +1224,7 @@ border-color: white;
 }
 .register-left-section-content h2{
   margin-top: 60px;
-  font-size: 45px;
+  font-size: 40px;
   font-weight: lighter;
   font-stretch: extra-expanded;
   color: white;
@@ -1254,6 +1262,11 @@ border-color: white;
 }
 .register-btn{
   display: none;
+}
+.register-header img{
+  position: relative;
+  right: 50px;
+  bottom: 50px;
 }
 }
 
@@ -1430,3 +1443,5 @@ border-color: white;
  }
 
 /* ##### */
+
+/*GRID*/

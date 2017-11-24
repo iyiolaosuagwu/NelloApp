@@ -474,9 +474,11 @@ ul.review-twPc-Arrange {
 .c100.center {
   float: none;
   margin: 0 auto;
+  text-align: center;
 }
 .c100.big {
   font-size: 200px;
+  text-align: center;
 }
 .c100.small {
   font-size: 80px;
@@ -1307,10 +1309,6 @@ ul.review-twPc-Arrange {
 
 
 
-
-
-
-
 /* profile text */
 .profile-text>h1{
     font-weight: 700;
@@ -1357,26 +1355,6 @@ ul.review-twPc-Arrange {
 }
 
 
-.my-3:after{
-  content: "";
-  position: absolute;
-  top: 0%;
-  right: 0%;
-  width: 0px;
-  height: 0px;
-  border-top: 50px solid #ddd; 
-  border-left: 50px solid #212529;
-}
-.my-3::before{
-  content: "";
-  position: absolute;
-  top: 0%;
-  right: 0%;
-  width: 0px;
-  height: 0px;
-  border-bottom: 50px hidden transparent;
-  border-right: 50px solid transparent;
-}
 .nav-link.active {
   color: #212529;
   position: relative;
@@ -1498,14 +1476,6 @@ ul.review-twPc-Arrange {
   width: 90%;
   height: 20rem !important;
   background-color: black !important;
-}
-.profile-videos-holder:hover{
-  -moz-animation: pulse 2s infinite linear;
-  -o-animation: pulse 2s infinite linear;
-  -webkit-animation: pulse 2s infinite linear;
-  animation: pulse 2s infinite linear;
-  width: 100%;  
-  height: 22rem !important;
 }
 .profile-videos-holder-mobile{
   width: 100%;
@@ -2899,12 +2869,6 @@ input[type="checkbox"]{
   padding-left: 25px;
   padding-right: 25px;
   background-color: white;
-}
-.register-header{
-  padding-bottom: 5px;
-  width: 100%;
-  margin: 0 auto;
-  height: 60px;
 }
 .register-header img{
   float: left;
